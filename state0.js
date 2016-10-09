@@ -7,7 +7,7 @@
 		console.log('state 0');
 
 		addChangeStateEventListeners();
-		
+		game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
 	 },
 	update: function(){}
  };
